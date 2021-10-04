@@ -1,0 +1,12 @@
+{
+	"Name": "zCookies",
+	"ID": "zCookies",
+	"Author": "Danboy Bebace",
+	"Description": "Automate the gameplay.",
+	"ModVersion": "0.6.2",
+	"GameVersion": 2.042,
+	"Date": "20/03/2021",
+	"Dependencies": [],
+	"Disabled": 1,
+    "AllowSteamAchievs": 1
+}
