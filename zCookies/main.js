@@ -26,6 +26,7 @@ Game.registerMod("zCookies", {
   init: function () {
     zCookies = this;
     zDatabase = zDatabase
+    document.getElementById("smallSupport").remove(); //remove adspot
     Game.registerHook('reset',function(hard){
       zCookies.zDBMan.setDefaults(hard);
     });
@@ -311,6 +312,7 @@ Game.registerMod("zCookies", {
     }
     zCookies.objects.zMenuLocation.fixStyling(zCookies.objects.zMenuLocation.value)
     //zCookies.objects.zHandleGarden.updateDesiredPlant();
+
     Game.ascendNumber.remove();
     zInfoAreaLastPlant.onclick = zCookies.zFunctions.showLastPlant;
     zInfoAreaWrinklerInfo.onclick = zCookies.zFunctions.wrinklerHelp;
