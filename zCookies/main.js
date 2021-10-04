@@ -317,7 +317,7 @@ Game.registerMod("zCookies", {
     zInfoAreaLastPlant.onclick = zCookies.zFunctions.showLastPlant;
     zInfoAreaWrinklerInfo.onclick = zCookies.zFunctions.wrinklerHelp;
     zInfoAreaProgressPercent.onclick = zCookies.zFunctions.toggleSlowMode;
-    zCookies.zFunctions.nextProduct(true);
+    zCookies.zFunctions.nextPurchase(false);
     Game.Notify(`zCookies v:` + zCookies.variables.zCookiesVersion + ` loaded.`, `Enjoy your automation.`, [16, 5], true);
     zCookies.mainLoop()
   },
