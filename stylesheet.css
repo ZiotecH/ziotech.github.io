@@ -1,3 +1,18 @@
+/*
+DejaVu Sans Code is open source.
+The license is available below;
+https://github.com/SSNikolaevich/DejaVuSansCode/blob/master/LICENSE
+
+The repository is available below;
+https://github.com/SSNikolaevich/DejaVuSansCode
+
+*/
+
+@font-face{
+    font-family: "DejaVu Sans Code";
+    src: url(/src/DejaVuSansCode.ttf);
+}
+
 *{
     font-family: "DejaVu Sans Code";
     text-align:center;
