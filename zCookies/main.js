@@ -25,6 +25,7 @@ var zDatabase = {
 Game.registerMod("zCookies", {
   init: function () {
     zCookies = this;
+    zDatabase = zDatabase
     Game.registerHook('reset',function(hard){
       zCookies.zDBMan.setDefaults(hard);
     });

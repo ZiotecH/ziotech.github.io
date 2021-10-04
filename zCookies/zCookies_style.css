@@ -2,13 +2,13 @@
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
-  src: url('https://ziotech.github.io/font/OpenSans-Regular.ttf') format('truetype');
+  src: url('https://ziotech.github.io/zCookies/font/OpenSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'DejaVu Sans Code';
   font-style: normal;
-  src: url('https://ziotech.github.io/font/DejaVuSansCode.ttf') format('truetype');
+  src: url('https://ziotech.github.io/zCookies/font/DejaVuSansCode.ttf') format('truetype');
 }
 
 *{
