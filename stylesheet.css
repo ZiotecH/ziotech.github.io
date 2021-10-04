@@ -1,0 +1,8 @@
+*{
+    font-family: "DejaVu Sans Code";
+}
+#center {
+    margin:0 auto;
+    width: 67vw;
+    min-width:500px;
+}
