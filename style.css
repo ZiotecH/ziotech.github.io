@@ -55,13 +55,14 @@ html{
 }
 
 #displayElm{
+    pointer-events: none;
     position: absolute;
     text-align: center;
     bottom:10px;
     left:30vw;
     width:40vw;
     font-size: calc(25px + 2vw);
-    font-family: "DejaVu Sans Code" "Segoe UI";
+    font-family: "DejaVu Sans Code", "Segoe UI";
     background:linear-gradient(to left, rgba(230,160,195,1), rgba(120,160,230,1), rgba(230,160,195,1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -107,6 +108,7 @@ html{
 }
 
 #disclaimer{
+    pointer-events: none;
     position: absolute;
     top: 10px;
     left: 30vw;
@@ -116,6 +118,6 @@ html{
     background:radial-gradient(rgb(255, 0, 0), rgb(255, 0, 221), rgb(255, 146, 201));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: "DejaVu Sans Code"  "Segoe UI";
+    font-family: "DejaVu Sans Code", "Segoe UI";
     text-align: center;
 }
