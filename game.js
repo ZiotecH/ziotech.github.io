@@ -13,7 +13,7 @@ function eatBread(){
         starList.push(starGen(...rngHandler()));
     }
     if(noms%500==0 && !(heartList5h.length >= 200)){
-        HeartList5h.push(heartGen5h(...rngHandler()));
+        heartList5h.push(heartGen5h(...rngHandler()));
     }
     if(noms%1e3==0 && !(heartList1k.length >= 200)){
         heartList1k.push(heartGen1k(...rngHandler()));
