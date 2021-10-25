@@ -105,6 +105,7 @@ html{
     height:100vh;
     color:#FF0;
     font-size: 100px;
+    display: none;
 }
 
 #disclaimer{
