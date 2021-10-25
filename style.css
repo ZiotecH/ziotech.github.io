@@ -73,7 +73,7 @@ html{
     background:radial-gradient(rgb(255, 238, 0), rgb(255, 251, 0), rgb(255, 253, 146));
     animation-name: starfall;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -87,14 +87,14 @@ html{
     */
     animation-name: starfall;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
 
 .heart_5h{
     pointer-events: none;
     animation-name: starfall;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
 
 #store{
