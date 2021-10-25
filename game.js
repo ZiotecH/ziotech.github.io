@@ -108,7 +108,7 @@ function rngHandler(){
         var X = Math.ceil(Math.random()*90)
         var S = Math.round(Math.random()*10,2)
         var D = Math.ceil(Math.random()*88)
-        var R = Math.ceil(Math.random()*180);
+        var R = Math.ceil(Math.random()*360);
         var W = Math.round(Math.random()*3,2);
         if(S < 5){S = 5}
         if(D < 25){D = 25}
