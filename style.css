@@ -1,0 +1,121 @@
+/*
+DejaVu Sans Code is open source.
+The license is available below;
+https://github.com/SSNikolaevich/DejaVuSansCode/blob/master/LICENSE
+
+The repository is available below;
+https://github.com/SSNikolaevich/DejaVuSansCode
+
+*/
+
+@font-face{
+    font-family: "DejaVu Sans Code";
+    src: url(/src/DejaVuSansCode.ttf);
+}
+
+body{
+    margin:0;
+    background: linear-gradient(#000, #002, #006, #009, #029, #03A, #06A, #09B, #0CC, #2CD);
+    overflow:hidden;
+}
+html{
+    margin:0;
+}
+
+@keyframes starfall {
+    0% {top:-10%;}
+    100% {top:100%;}
+}
+
+#center{
+    margin:0 auto;
+    min-width: 50vw;
+    height: 100vh;
+}
+
+#ket{
+    margin:0 auto;
+    min-width:512px;
+    width:100vh;
+    min-height: 512px;
+    height: 100vh;
+    background-image: url(chomp1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ket:active{
+    margin:0 auto;
+    min-width:512px;
+    width:100vh;
+    min-height: 512px;
+    height: 100vh;
+    background-image: url(chomp2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#displayElm{
+    position: absolute;
+    text-align: center;
+    bottom:10px;
+    left:30vw;
+    width:40vw;
+    font-size: calc(25px + 2vw);
+    font-family: "DejaVu Sans Code" "Segoe UI";
+    background:linear-gradient(to left, rgba(230,160,195,1), rgba(120,160,230,1), rgba(230,160,195,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.star{
+    pointer-events: none;
+    background:radial-gradient(rgb(255, 238, 0), rgb(255, 251, 0), rgb(255, 253, 146));
+    animation-name: starfall;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heart_1k{
+    pointer-events: none;
+    /*
+    background:radial-gradient(rgb(255, 0, 0), rgb(255, 0, 221), rgb(255, 146, 201));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    */
+    animation-name: starfall;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.heart_5h{
+    pointer-events: none;
+    animation-name: starfall;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#store{
+    position:absolute;
+    text-align: right;
+    right:0px;
+    width:25vw;
+    height:100vh;
+    color:#FF0;
+    font-size: 100px;
+}
+
+#disclaimer{
+    position: absolute;
+    top: 10px;
+    left: 30vw;
+    width: 40vw;
+    font-weight: bold;
+    font-size: 1.5vw;
+    background:radial-gradient(rgb(255, 0, 0), rgb(255, 0, 221), rgb(255, 146, 201));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "DejaVu Sans Code"  "Segoe UI";
+    text-align: center;
+}
